@@ -1,0 +1,31 @@
+%%mocodo
+:
+Auteur: Id.auteur, Nom.auteur, Prenom.auteur, Pays.auteur, Ville.auteur
+:
+Editer: #Id.editeur->Editeur->Id.editeur, _#Id.auteur->Auteur->Id.auteur, Contrat.edition
+:
+Editeur: Id.editeur, Nom.editeur, Pays.editeur
+:
+Paiment: Id_Pmt, Montant_Pmt, #Id_fact->Facture->Id_fact
+:::
+
+
+:::
+Livre: Id_li, Titre_l, Ss_titre_li, date_pub_li, Résumé_li, Num_sdbn, prix_li, #Id.editeur->Editeur->Id.editeur, #Id.auteur->Auteur->Id.auteur, #Id_theme->Thème->Id_theme
+:::::::
+
+
+:::::::
+Facture: Id_fact, Num_fact, date_fact, #Id_Clt->Client->Id_Clt
+:::
+
+
+:
+Thème: Id_theme, Libellé
+:
+Commentaire: Id_com, Libellé_com, note_com, #Id_li->Livre->Id_li
+:
+cde: Id_cde, qté_cde, #Id_fact->Facture->Id_fact, #Id_li->Livre->Id_li
+:::
+Client: Id_Clt, Nom_Clt, Prenom_Clt, Adr_Clt, Cp_Clt, Ville_Clt, Tél_Clt, email_Clt
+:
