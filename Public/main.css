@@ -1,0 +1,94 @@
+body{
+    text-align: center;
+    background-color: rgb(180, 216, 204);
+    margin: 0;
+   
+    
+}
+
+.contenaire{
+
+   margin-left: auto;
+   margin-right: auto;
+   width:50px ;
+   
+    
+   
+}
+
+h1{
+    background-color:rgb(247, 247, 240) ;
+    margin-top:10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-left: rgb(43, 176, 180)solid 10px;
+    border-right:rgb(43, 176, 180)solid 10px; ;
+    font-family: 'Lobster', cursive, serif;
+    font-weight: bolder;
+    color:rgb(10, 123, 151) ;
+    
+}
+
+h2{
+    background-color:rgb(10, 123, 151) ;
+    margin-top:10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-family: 'Lobster', cursive;
+    font-family: 'Source Serif Pro', serif;
+    color: blanchedalmond;
+  
+
+
+}
+.card-text{
+    background-color: rgb(236, 226, 226);
+
+    margin-left: auto;
+    margin-right: auto;
+    width:50% ;
+    
+}
+div.identifiant{
+    text-align: justify;
+    margin-left: auto;
+}
+
+div.button{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-left:10px;
+    margin-right:10px;
+    margin-bottom:auto;
+    padding-bottom: 20px;
+}
+ 
+div.identifiant{
+    text-align: left;
+
+}
+
+div.resultat{
+    margin-left: auto;
+    margin-right: auto;
+    width:50% ;
+    background-color: cadetblue;
+    padding-bottom: 10px;
+    padding-top:10px ;
+
+}
+div.error{
+    margin-left: auto;
+    margin-right: auto;
+    width:50% ;
+    background-color: red;
+    padding-bottom: 10px;
+    padding-top:10px ;
+    margin-bottom: 20px;
+
+}
+
+
+
+
